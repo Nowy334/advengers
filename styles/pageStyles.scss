@@ -1,0 +1,12 @@
+@use './veriables.scss';
+
+%title{
+  font-size: 4.8rem;
+}
+
+%span{
+  background-color: veriables.$color-button;
+  height: 0.3rem;
+  width: 10rem;
+  margin: 2rem 0;
+}

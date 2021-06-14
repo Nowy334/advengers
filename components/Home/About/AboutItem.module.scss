@@ -1,0 +1,31 @@
+@use '../../../styles/pageStyles.scss';
+
+.container{
+  display: flex;
+  flex-direction: column;
+  border-left: 2px #FFF solid;
+  border-right: 2px #FFF solid;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 2.5rem;
+
+  h3{
+    font-size: 3rem;
+    color: #FFF;
+  }
+
+  p{
+    color: #FFF;
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  span{
+    @extend %span;
+    width: 5rem;
+    background-color: #FFF;
+  }
+
+  img{
+    padding: 2rem;
+  }
+}

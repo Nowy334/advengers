@@ -1,0 +1,24 @@
+@use '../../styles/veriables.scss';
+
+.header{
+  height: calc(100vh - 7.5rem);
+  background-color: veriables.$color-accent;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1{
+    font-size:2.4rem;
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 2rem;
+  }
+
+  p{
+    color: #FFF;
+    font-size: 10rem;
+    font-weight: 700;
+    text-align: center;
+  }
+}
