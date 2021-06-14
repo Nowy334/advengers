@@ -1,9 +1,11 @@
+import classes from './PortfolioHeader.module.scss';
+
 const PortfolioHeader = () => {
   return(
-  <div>
-    <h2>portfolio</h2>
+  <div className={classes.header}>
+    <h2 className={classes.header__title}>Portfolio</h2>
     <span></span>
-    <p>Wszystko zaczyna się tutaj.</p>
+    <p className={classes.header__text}>Wszystko zaczyna się tutaj.</p>
   </div>);
 };
 

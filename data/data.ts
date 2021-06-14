@@ -18,7 +18,20 @@ const DATA_ABOUT: Data[] = [
   {title:'Grafika', text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.' },
   {title:'Grafika', text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.' }
 ];
-export {DATA_ABOUT};
+
+const PORTFOLIO_PROJECTS: {img: string, title: string, text:string}[] = [
+  {img: '/assets/project-1.jpg', title: 'House Design', text: 'photography' },
+  {img: '/assets/project-2.jpg', title: 'House Design', text: 'photography' },
+  {img: '/assets/project-3.jpg', title: 'House Design', text: 'photography' },
+  {img: '/assets/project-4.jpg', title: 'House Design', text: 'photography' },
+  {img: '/assets/project-5.jpg', title: 'House Design', text: 'photography' },
+  {img: '/assets/project-6.jpg', title: 'House Design', text: 'photography' },
+  {img: '/assets/project-7.jpg', title: 'House Design', text: 'photography' },
+  {img: '/assets/project-8.jpg', title: 'House Design', text: 'photography' },
+]; 
+
+export {DATA_ABOUT, PORTFOLIO_PROJECTS};
+
 
 
 

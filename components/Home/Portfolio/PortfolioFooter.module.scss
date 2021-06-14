@@ -1,0 +1,25 @@
+@use '../../../styles/veriables.scss';
+
+.container{
+  height: 18rem;
+  background-color: veriables.$color-button;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  a{
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: veriables.$color-accent;
+    border-radius: 4.2rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    transition: transform 0.1s ease-in-out;
+
+    &:hover{
+      transform: translateY(-0.7rem);
+    }
+  }
+}
