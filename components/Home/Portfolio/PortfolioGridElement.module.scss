@@ -28,6 +28,7 @@
 
     &--title{
       @extend %title;
+      font-size: 4rem;
       a{
         text-decoration: none;
         color: #fff;

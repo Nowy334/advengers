@@ -22,3 +22,12 @@ body {
   padding: 0;
   box-sizing: inherit;
 }
+
+.slick-prev:before, .slick-next:before{
+  color: #1F2659!important;
+  font-size: 3rem!important;
+}
+
+.slick-prev{
+  left: -35px!important;
+}

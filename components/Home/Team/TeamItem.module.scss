@@ -1,0 +1,44 @@
+@use '../../../styles/veriables.scss';
+@import '../../../styles/pageStyles.scss';
+
+.container{
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  &__img{
+    width:100%;
+  }
+
+  &__name{
+    font-size:1.8rem ;
+    font-weight: 700;
+    color: veriables.$color-accent;
+    padding: 4rem 0 1rem 0;
+  }
+
+  &__title{
+    @extend %text;
+    font-size: 1.6rem;
+    color: veriables.$color-accent;
+  }
+
+  &__text{
+    @extend %text;
+    color: veriables.$color-accent;
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  &__social{
+    a{
+      text-decoration: none;
+      width: 2rem;
+      height: 2rem;
+    }
+    &-item{
+     fill: rgb(0, 115, 170);
+     margin: 1rem 1rem;
+    }
+  }
+}
