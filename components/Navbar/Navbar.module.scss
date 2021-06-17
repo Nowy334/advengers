@@ -11,14 +11,31 @@
   top: 0;
   z-index: 100;
 
+  @include veriables.respond(netbook-min){
+    justify-content: space-between;
+  }
+
   &__list {
     display:flex;
     align-items: center;
     font-size: 1.9rem;
     list-style: none;
     justify-content: space-between;
+    @include veriables.respond(netbook-min){
+      display: none;
+      position: absolute;
+      top: 7rem;
+      flex-direction: column;
+      //align-items: flex-start;
+      justify-content: center;
+      width:100%;
+      background-color: #fff;
+    }
 
     &--element{
+      @include veriables.respond(netbook-min){
+        padding: 2rem;
+      }
       a{
         text-decoration: none;
         color: veriables.$color-primary;
@@ -37,6 +54,14 @@
     width:100%;
     max-width: 13.9rem;
     margin-right: 10rem;
+
+    @include veriables.respond(phone){
+      margin-left: 5rem;
+    }
+
+    @include veriables.respond(netbook){
+      margin-right: 0;
+    }
   }
 
   &__button{
@@ -51,10 +76,48 @@
     text-decoration: none;
     transition: transform 0.1s ease-in-out;
 
+    @include veriables.respond(phone){
+      display: none;
+    }
+
     &:hover{
       transform: translateY(-0.7rem);
     }
   }
 
   
+}
+
+.active {
+  color: veriables.$color-accent-secondary !important;
+}
+
+.active-nav{
+  display:flex;
+}
+
+.toggle_button{
+  position:absolute;
+  top: 2.7rem;
+  right: 25rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+
+  @include veriables.respond(phone){
+    right: 5rem;
+  }
+
+  @include veriables.respond(netbook-min){
+    display: flex;
+  }
+
+  .bar{
+    height: 3px;
+    width: 100%;
+    background-color: veriables.$color-accent;
+    border-radius: 10px;
+  }
 }

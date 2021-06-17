@@ -5,7 +5,20 @@ const TrustUs = () => {
     <section className={classes.section}>
       <h2 className={classes.section__title}>Zaufali nam</h2>
       <span className={classes.section__line}></span>
-      <div className={classes.section__container}></div>
+      <div className={classes.section__container}>
+        <img src='/assets/logo-2.png'/>
+        <img src='/assets/logo-2.png'/>
+        <img src='/assets/logo-2.png'/>
+        <img src='/assets/logo-2.png'/>
+        <img src='/assets/logo-2.png'/>
+        <img src='/assets/logo-2.png'/>
+        <img src='/assets/logo-2.png'/>
+        <img src='/assets/logo-2.png'/>
+        <img src='/assets/logo-2.png'/>
+        <img src='/assets/logo-2.png'/>
+        <img src='/assets/logo-2.png'/>
+        <img src='/assets/logo-2.png'/>
+      </div>
     </section>
   );
 };

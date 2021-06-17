@@ -1,9 +1,9 @@
 import React from 'react';
 import { TiSocialFacebook, TiSocialInstagram, TiSocialTwitter } from 'react-icons/Ti';
-import classes from './TeamItem.module.scss';
+import classes from './SlickItem.module.scss';
 
 
-const TeamItem: React.FC<{img: string; name: string; title:string; text:string}> = (props) => {
+const SliderItem: React.FC<{img: string; name: string; title:string; text:string}> = (props) => {
   return(
     <div className={classes.container}>
       <img src={props.img} className={classes.container__img}/>
@@ -19,4 +19,4 @@ const TeamItem: React.FC<{img: string; name: string; title:string; text:string}>
   );
 };
 
-export default TeamItem;
+export default SliderItem;
