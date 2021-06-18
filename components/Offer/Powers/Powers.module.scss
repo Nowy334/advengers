@@ -1,0 +1,6 @@
+.container{
+  display:grid;
+  grid-template-columns: repeat(3, minmax(35rem, 39rem));
+  justify-content: center;
+  padding: 15rem;
+}

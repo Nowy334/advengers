@@ -1,0 +1,26 @@
+.item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+
+  &__img{
+    margin-bottom: 2rem;
+  }
+
+  &__title{
+    color: #141414;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  &__text{
+    text-align: center;
+    font-size: 1.6rem;
+    color: #6F6F6F;
+  }
+}
+.dark {
+  background-color: #F7F7F7;
+}

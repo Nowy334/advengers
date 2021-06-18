@@ -38,7 +38,19 @@ const ABOUT_ITEMS: {img: string; name: string; title:string; text:string}[] = [
   {img:'/assets/face-7-min.jpg', name: 'Andrzej Kowalski', title: 'Testing Enginner', text:'Enter member description here which describes the position of member in company'},
 ]
 
-export {DATA_ABOUT, PORTFOLIO_PROJECTS, ABOUT_ITEMS};
+const OFFER_ITEMS: {img: string; title:string; text:string; dark?:boolean}[] = [
+  {img: '/assets/icon-design.png', title: 'Web Development', text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus nec' },
+  {img: '/assets/icon-design.png', title: 'Social Media', text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus nec', dark: true },
+  {img: '/assets/icon-design.png', title: 'Cloud Processing', text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus nec' },
+  {img: '/assets/icon-design.png', title: 'Banner Design', text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus nec', dark: true },
+  {img: '/assets/icon-design.png', title: 'Store Design', text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus nec' },
+  {img: '/assets/icon-design.png', title: 'Data Analysis', text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus nec', dark: true },
+  {img: '/assets/icon-design.png', title: 'Web Market', text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus nec' },
+  {img: '/assets/icon-design.png', title: 'Premium Support', text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus nec', dark: true },
+  {img: '/assets/icon-design.png', title: 'App Development', text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus nec' },
+]
+
+export {DATA_ABOUT, PORTFOLIO_PROJECTS, ABOUT_ITEMS, OFFER_ITEMS};
 
 
 

@@ -1,13 +1,13 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import Header from '../../components/UI/Header/Header';
 import React from 'react';
 
-export default function Contact() {
-  return (
+const Contact = () => {
+  return(
     <>
-    <h1>Contact</h1>
-    <h1>Contact</h1>
-    <h1>Contact</h1>
+      <Header title= 'Skontaktuj się z nami!' text = 'Lorem ipsum sit consectetur sadipiscing'/>
     </>
-  )
-}
+  );
+};
+
+export default Contact;
+
