@@ -3,6 +3,7 @@ import classes from './Slick.module.scss';
 import SlickItem from './SlickItem';
 import {ABOUT_ITEMS} from '../../../data/data';
 
+
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
   return (
@@ -35,7 +36,7 @@ const Slick = () => {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
     className: classes.slide,
     autoplay: true,
@@ -45,7 +46,7 @@ const Slick = () => {
 
   return(
     <div className={classes.container}>
-      <div className={classes.container__out}>
+      <div className={classes.container__out} id={classes.arrow}>
         <Slider {...settings}>
             {elements}
         </Slider>

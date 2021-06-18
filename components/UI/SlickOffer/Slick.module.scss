@@ -1,16 +1,17 @@
 .container{
-  width:100%;
+  width:50%;
   display:flex;
   justify-content: center;
   align-items: center;
 }
 
 .container__out{
-  width: 70%;
+  width: 80%;
+  max-width: 60rem;
   height: 20rem;
-
 }
 
-.arrow::before {
-  color: #1F2659;
+.arrow::before{
+  color: #fff;
 }
+

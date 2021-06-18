@@ -1,0 +1,101 @@
+@use '../../../styles/veriables.scss';
+@use '../../../styles/pageStyles.scss';
+
+.section{
+  padding: 15rem 0;
+  display: flex;
+  justify-content: center;
+  //align-items: center;
+
+  &__element{
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem;
+    align-items: flex-start;
+
+    &-1{
+      max-width: 40rem;
+    }
+    &-2{
+      max-width: 40rem;
+    }
+    &-3{
+      max-width: 40rem;
+    }
+
+    &--img{
+      width: 100%;
+      margin-bottom: 2rem;
+
+      &-small{
+        width: 20%;
+      }
+    }
+
+    &--container{
+
+      display: flex;
+      align-items: center;
+      
+      &-title{
+        font-weight: 600;
+        font-size: 2rem;
+        margin-left: 1.5rem;
+        color: #141414;
+      }
+
+      &-text{
+        
+        font-size: 1.6rem;
+        color: #1F2659;
+        margin-left: 9.5rem;
+        margin-top: 0.5rem;
+      }
+
+      &-text2-main{
+        color: #6f6f6f;
+        font-size:2.2rem;
+        margin-bottom: 4rem;
+      }
+
+      &-text1{
+        color: veriables.$color-button;
+        font-size: 1.6rem;
+        font-weight: bold;
+        font-style: italic;
+        margin-right: 1rem;
+      }
+
+      span{
+        @extend %span;
+        width: 5rem;
+        height: 0.2rem;
+      }
+
+      &-title2{
+        color: #141414;
+        font-size: 4.8rem;
+        font-weight: 600;
+      }
+
+      &-text2{
+        color: #6f6f6f;
+        font-size:1.6rem;
+        margin-bottom: 4rem;
+      }
+
+      &-button{
+        text-decoration: none;
+        color: #fff;
+        padding: 0.8rem 2.5rem;
+        border-radius: 0.3rem;
+        background-color: veriables.$color-button;
+        font-size: 1.5rem;
+        transition: background-color 0.2s ease-in-out;
+        &:hover{
+          background-color: #232323;
+        }
+      }
+    }
+  }
+}
