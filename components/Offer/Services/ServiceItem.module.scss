@@ -1,0 +1,46 @@
+@use '../../../styles/veriables.scss';
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+
+  &__element{
+    max-width: 36rem;
+    border-right: 1px solid rgb(229, 224, 222);
+
+    &--title{
+      color: rgb(20, 20, 20);
+      font-size: 2rem;
+      font-weight: 600;
+      line-height: 1.2em;
+    }
+
+    &--text{
+      color: veriables.$color-accent;
+      font-size: 1.6rem;
+    }
+  }
+
+  &__button{
+    padding: 1.4rem;
+    margin: 2rem 2.5rem;
+    background-color: veriables.$color-button;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__icon{
+    fill: #fff;
+  }
+}
+
+.span{
+  margin-left: 2rem;
+  display: block;
+  height: 1rem;
+  width: 88%;
+  border-bottom: 1px dashed rgb(229, 224, 222);
+}

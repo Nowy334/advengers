@@ -50,7 +50,19 @@ const OFFER_ITEMS: {img: string; title:string; text:string; dark?:boolean}[] = [
   {img: '/assets/icon-design.png', title: 'App Development', text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus nec' },
 ]
 
-export {DATA_ABOUT, PORTFOLIO_PROJECTS, ABOUT_ITEMS, OFFER_ITEMS};
+const SERVICE_ITEMS:{ title:string; text:string; last?: boolean }[] = [
+  {title:'Vivamus viverra velit sed', text:'Lorem ipsum dolor sit amet, consectetur adipiscing elit'},  
+  {title:'Proin faucibus', text:'Phasellus vitae ullamcorper enim, ac porta neque. Sed lorem justo'},  
+  {title:'Fusce ut porta', text:'Phasellus vitae ullamcorper enim, ac porta neque. Sed lorem justo'},  
+  {title:'Laoreet semper massa', text:'Phasellus vitae ullamcorper enim, ac porta neque. Sed lorem justo', last: true},  
+  {title:'Massa laoreet semper', text:'Lorem ipsum dolor sit amet, consectetur adipiscing elit'},  
+  {title:'Ullamcorper enim', text:'Lorem ipsum dolor sit amet, consectetur adipiscing elit'},  
+  {title:'Aenean molestie', text:'Lorem ipsum dolor sit amet, consectetur adipiscing elit'},  
+  {title:'Curabitur blandit', text:'Lorem ipsum dolor sit amet, consectetur adipiscing elit', last:true},  
+
+];
+
+export {DATA_ABOUT, PORTFOLIO_PROJECTS, ABOUT_ITEMS, OFFER_ITEMS, SERVICE_ITEMS};
 
 
 
