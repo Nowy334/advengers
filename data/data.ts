@@ -31,7 +31,7 @@ const PORTFOLIO_PROJECTS: {img: string, title: string, text:string}[] = [
 ]; 
 
 const ABOUT_ITEMS: {img: string; name: string; title:string; text:string}[] = [
-  {img:'/assets/face-3-min.png', name: 'Lysy to frajer', title: 'Testing Enginner', text:'Enter member description here which describes the position of member in company'},
+  {img:'/assets/face-3-min.png', name: 'Andrzej Kowalski', title: 'Testing Enginner', text:'Enter member description here which describes the position of member in company'},
   {img:'/assets/face-4-min.png', name: 'Andrzej Kowalski', title: 'Testing Enginner', text:'Enter member description here which describes the position of member in company'},
   {img:'/assets/face-5-min.jpg', name: 'Andrzej Kowalski', title: 'Testing Enginner', text:'Enter member description here which describes the position of member in company'},
   {img:'/assets/face-6-min.jpg', name: 'Andrzej Kowalski', title: 'Testing Enginner', text:'Enter member description here which describes the position of member in company'},
@@ -62,7 +62,16 @@ const SERVICE_ITEMS:{ title:string; text:string; last?: boolean }[] = [
 
 ];
 
-export {DATA_ABOUT, PORTFOLIO_PROJECTS, ABOUT_ITEMS, OFFER_ITEMS, SERVICE_ITEMS};
+const ABOUTUS_ITEMS: {img: string; title:string; text:string; dark?:boolean}[] = [
+  {img: '/assets/icon-design.png', title: 'Web Design', text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus nec' },
+  {img: '/assets/icon-design.png', title: 'Web Development', text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus nec'},
+  {img: '/assets/icon-design.png', title: 'Product Marketing', text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus nec' },
+  {img: '/assets/icon-design.png', title: 'Web Design', text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus nec'},
+  {img: '/assets/icon-design.png', title: 'Web Development', text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus nec' },
+  {img: '/assets/icon-design.png', title: 'Product Marketing', text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus nec' }
+]
+
+export {DATA_ABOUT, PORTFOLIO_PROJECTS, ABOUT_ITEMS, OFFER_ITEMS, SERVICE_ITEMS, ABOUTUS_ITEMS};
 
 
 

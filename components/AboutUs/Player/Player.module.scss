@@ -1,0 +1,59 @@
+@use '../../../styles/veriables.scss';
+
+.section {
+  padding: 10rem 0 8rem 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: veriables.$color-accent;
+
+  &__video{
+    width:64rem;
+    height:36rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__frame{
+    width: 100rem;
+    height: 60rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1rem solid #fff;
+  }
+
+  &__video iframe{
+    border: none;
+  }
+
+  &__info{
+    margin-top: 10rem;
+    width: 100%;
+    max-width: 110rem;
+    display: flex;
+    justify-content: space-between;
+    &--element{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &-number{
+        font-size: 6rem;
+        font-weight: 600;
+        color: veriables.$color-button;
+        padding: 2rem;
+      }
+
+      &-text{
+        width: 5rem;
+        color: #fff;
+        font-weight: 600;
+        font-size: 1.6rem;
+        line-height: 1.4em;
+      }
+    }
+  }
+}

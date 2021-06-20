@@ -8,13 +8,15 @@ import Services from '../../components/Offer/Services/Services';
 import Call from '../../components/UI/Call/Call';
 import Information from '../../components/UI/Information/Information';
 import Footer from '../../components/Footer/Footer';
+import {OFFER_ITEMS} from '../../data/data';
+
 
 const oferta = () => {
   return(
     <>
       <Header title='Oferta' text='Lorem ipsum sit consectetur sadipiscing'/>
       <main>
-        <Powers/>
+        <Powers data={OFFER_ITEMS}/>
         <InfoBar/>
         <Experience/>
         <About/>

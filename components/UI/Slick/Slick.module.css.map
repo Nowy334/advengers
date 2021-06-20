@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAA;EACR,KAAK,EAAC,IAAI;EACV,OAAO,EAAC,IAAI;EACZ,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;CACpB;;AAED,AAAA,eAAe,CAAA;EACb,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,KAAK;CAEd;;AAED,AAAA,MAAM,AAAA,QAAQ,CAAC;EACb,KAAK,EAAE,OAAO;CACf",
+    "sources": [
+        "Slick.module.scss"
+    ],
+    "names": [],
+    "file": "Slick.module.css"
+}

@@ -1,3 +1,4 @@
+@use '../../../styles/veriables.scss';
 
 .container{
   width:50%;
@@ -8,11 +9,11 @@
 
 .container__out{
   width: 80%;
-  max-width: 60rem;
-  height: 20rem;
+  max-width: 55rem;
+  
 }
 
 .arrow::before{
-  color: #fff;
+  color: veriables.$color-button;
 }
 

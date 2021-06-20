@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAA;EACR,OAAO,EAAC,IAAI;EACZ,qBAAqB,EAAE,+BAA+B;EACtD,eAAe,EAAE,MAAM;EACvB,OAAO,EAAE,KAAK;CACf",
+    "sources": [
+        "Powers.module.scss"
+    ],
+    "names": [],
+    "file": "Powers.module.css"
+}

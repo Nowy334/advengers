@@ -1,0 +1,38 @@
+.item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4rem;
+}
+
+.item__img {
+  margin-bottom: 2rem;
+}
+
+.item__title {
+  color: #141414;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.item__text {
+  text-align: center;
+  font-size: 1.6rem;
+  color: #6F6F6F;
+}
+
+.dark {
+  background-color: #F7F7F7;
+}
+/*# sourceMappingURL=PowerItem.module.css.map */

@@ -1,0 +1,11 @@
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(35rem, 39rem))[3];
+      grid-template-columns: repeat(3, minmax(35rem, 39rem));
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15rem;
+}
+/*# sourceMappingURL=Powers.module.css.map */

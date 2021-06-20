@@ -1,0 +1,29 @@
+@use '../../../styles/veriables.scss';
+
+.section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -10rem;
+
+  &__header{
+    padding-top:10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -5rem;
+    &--title{
+      font-size: 5rem;
+      font-weight: 600;
+      color: veriables.$color-primary;
+      padding-bottom: 2rem;
+    }
+
+    &--text{
+      font-size: 1.6rem;
+      color: veriables.$color-accent;
+    }
+  }
+}
