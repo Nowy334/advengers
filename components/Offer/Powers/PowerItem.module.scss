@@ -1,9 +1,14 @@
+@use '../../../styles/veriables.scss';
+
 .item{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 4rem;
+  @include veriables.respond(netbook){
+    padding: 2rem;
+  }
 
   &__img{
     margin-bottom: 2rem;

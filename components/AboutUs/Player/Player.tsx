@@ -9,21 +9,25 @@ const Player = () => {
         </div>
       </div>
       <div className={classes.section__info}>
-        <div className={classes['section__info--element']}>
-          <p className={classes['section__info--element-number']}>90</p>
-          <p className={classes['section__info--element-text']}>SKOŃCZONYCH PROJEKTÓW</p>
+        <div className={classes.div__container}>
+          <div className={classes['section__info--element']}>
+            <p className={classes['section__info--element-number']}>90</p>
+            <p className={classes['section__info--element-text']}>SKOŃCZONYCH PROJEKTÓW</p>
+          </div>
+          <div className={classes['section__info--element']}>
+            <p className={classes['section__info--element-number']}>120</p>
+            <p className={classes['section__info--element-text']}>ZADOWOLONYCH KLIENTÓW</p>
+          </div>
         </div>
-        <div className={classes['section__info--element']}>
-          <p className={classes['section__info--element-number']}>120</p>
-          <p className={classes['section__info--element-text']}>ZADOWOLONYCH KLIENTÓW</p>
-        </div>
-        <div className={classes['section__info--element']}>
-          <p className={classes['section__info--element-number']}>50</p>
-          <p className={classes['section__info--element-text']}>CZEGOŚ INNEGO</p>
-        </div>
-        <div className={classes['section__info--element']}>
-          <p className={classes['section__info--element-number']}>240</p>
-          <p className={classes['section__info--element-text']}>WYPITEJ KAWY</p>
+        <div className={classes.div__container}>
+          <div className={classes['section__info--element']}>
+            <p className={classes['section__info--element-number']}>50</p>
+            <p className={classes['section__info--element-text']}>CZEGOŚ INNEGO</p>
+          </div>
+          <div className={classes['section__info--element']}>
+            <p className={classes['section__info--element-number']}>240</p>
+            <p className={classes['section__info--element-text']}>WYPITEJ KAWY</p>
+          </div>
         </div>
       </div>
     </section>

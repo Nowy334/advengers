@@ -5,6 +5,10 @@
   display: flex;
   flex-direction: column;
   max-width: 48rem;
+  padding-left:3.6rem;
+  @include veriables.respond(tab){
+      max-width:80%;
+  }
 
   &__text{
     color: #182954;
@@ -38,6 +42,9 @@
     justify-content: flex-start;
     margin-top: 2rem;
     margin-left: -1.5rem;
+    @include veriables.respond(phone){
+      flex-direction: column;
+  }
 
     &-element{
       display: flex;

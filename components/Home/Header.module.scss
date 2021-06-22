@@ -20,5 +20,11 @@
     font-size: 10rem;
     font-weight: 700;
     text-align: center;
+    @include veriables.respond(tab){
+      font-size: 8rem;
+    }
+    @include veriables.respond(phone){
+      font-size: 5rem;
+    }
   }
 }

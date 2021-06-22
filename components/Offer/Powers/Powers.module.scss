@@ -1,6 +1,22 @@
+@use '../../../styles/veriables.scss';
+
 .container{
   display:grid;
-  grid-template-columns: repeat(3, minmax(35rem, 39rem));
+  grid-template-columns: repeat(3, minmax(30rem, 39rem));
   justify-content: center;
   padding: 15rem;
+
+  @include veriables.respond(netbook-max){
+    padding: 15rem 0;
+  }
+
+  @include veriables.respond(tab){
+    grid-template-columns: repeat(2, minmax(30rem, 39rem));
+  }
+
+  @include veriables.respond(phone){
+    grid-template-columns: repeat(1, minmax(30rem, 39rem));
+    padding: 10rem 0;
+  }
+
 }

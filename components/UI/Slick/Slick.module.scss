@@ -1,3 +1,5 @@
+@use '../../../styles/veriables.scss';
+
 .container{
   width:100%;
   display:flex;
@@ -9,6 +11,17 @@
   width: 70%;
   height: 20rem;
 
+  @include veriables.respond(netbook){
+    width:75%;
+  }
+
+  @include veriables.respond(tab){
+    width:50%;
+  }
+
+  @include veriables.respond(phone){
+    width: 60%;
+  }
 }
 
 .arrow::before {

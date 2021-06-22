@@ -12,19 +12,18 @@
     font-size:1.8rem ;
     font-weight: 700;
     color: veriables.$color-text;
-    padding: 4rem 0 1rem 0;
+    padding: 2rem 0 1rem 0;
   }
 
   &__title{
     @extend %text;
     font-size: 1.6rem;
     color: veriables.$color-text;
-    //font-weight: bold;
   }
 
   &__text{
     @extend %text;
-    margin-top: 4rem;
+    margin-top: 2rem;
     color: veriables.$color-text;
     font-size: 2.2rem;
     font-weight: 300;

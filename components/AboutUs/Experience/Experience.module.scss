@@ -19,11 +19,17 @@
       font-weight: 600;
       color: veriables.$color-primary;
       padding-bottom: 2rem;
+      @include veriables.respond(phone){
+        text-align: center;
+      }
     }
 
     &--text{
       font-size: 1.6rem;
       color: veriables.$color-accent;
+      @include veriables.respond(phone){
+        text-align: center;
+      }
     }
   }
 }

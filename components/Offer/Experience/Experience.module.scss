@@ -6,12 +6,31 @@
   display: flex;
   justify-content: center;
   //align-items: center;
+  @include veriables.respond(tab){
+   flex-direction: column;
+   align-items: center;
+   padding: 15rem 0 10rem 0;
+  }
+
+  @include veriables.respond(phone){
+    padding: 10rem 0 10rem 0;
+  }
+
+  .div__main{
+    display: flex;
+    @include veriables.respond(phone){
+      flex-direction: column;
+    }
+  }
 
   &__element{
     display: flex;
     flex-direction: column;
     margin: 0 2rem;
     align-items: flex-start;
+    @include veriables.respond(phone){
+      margin: 2rem;
+    }
 
     &-1{
       max-width: 40rem;
@@ -21,6 +40,20 @@
     }
     &-3{
       max-width: 40rem;
+      @include veriables.respond(tab){
+        padding-top: 10rem;
+        max-width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+      @include veriables.respond(phone){
+        padding-top: 2rem;
+      }
+    
     }
 
     &--img{
@@ -56,6 +89,9 @@
         color: #6f6f6f;
         font-size:2.2rem;
         margin-bottom: 4rem;
+        @include veriables.respond(tab){
+          
+        }
       }
 
       &-text1{

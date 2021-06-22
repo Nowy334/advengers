@@ -9,12 +9,16 @@
   align-items: center;
   padding-top: 18rem;
   padding-bottom: 18rem;
+  @include veriables.respond(tab){
+    padding: 18rem 2rem; 
+  }
 
   &__title{
     @extend %title; 
     font-size: 6rem;
     color: #FFF;
     justify-self: start;
+
   }
 
   .section__line{
@@ -27,5 +31,8 @@
     height: 100%;
     display: flex;
     align-items: flex-start;
+    @include veriables.respond(tab){
+      flex-direction: column;
+    }
   }
 }

@@ -12,6 +12,12 @@
     color: veriables.$color-text;
     font-weight: 700;
     margin-left: 10rem;
+    @include veriables.respond(tab){
+      margin-left: 4rem;
+    }
+    @include veriables.respond(phone){
+      margin-left: 0;
+    }
   }
 
   span{
@@ -24,6 +30,12 @@
     margin-right: 10rem;
     display: flex;
     justify-content: space-evenly;
+    @include veriables.respond(tab){
+      margin-right: 4rem;
+    }
+    @include veriables.respond(phone){
+      margin-right: 0;
+    }
 
     a{
       text-decoration: none;

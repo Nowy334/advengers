@@ -1,8 +1,22 @@
+@use './veriables.scss';
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap');
+
 
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+
+  @include veriables.respond(phone){
+    font-size: 50%; //1rem = 8px; 8/16 = 5-%
+  } 
+
+  @include veriables.respond(tab){
+    font-size: 56.25%; //1rem = 9px; 9/16
+  }
+
+  @include veriables.respond(big-desktop){
+      font-size: 65%; //1rem = 12px; 12/16 = 75%
+  }
 }
 
 body {

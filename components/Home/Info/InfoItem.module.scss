@@ -8,6 +8,10 @@
   align-items: flex-start;
   justify-content: space-evenly;
 
+  @include veriables.respond(phone){
+    padding: 7rem 2rem;
+  }
+
   &__title{
     @extend %title;
   }

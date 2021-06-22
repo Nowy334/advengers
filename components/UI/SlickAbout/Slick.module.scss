@@ -1,10 +1,16 @@
 @use '../../../styles/veriables.scss';
 
 .container{
+  
   width:50%;
   display:flex;
   justify-content: center;
   align-items: center;
+
+  @include veriables.respond(phone){
+    padding-top: 4rem;
+    width:100%;
+  }
 }
 
 .container__out{

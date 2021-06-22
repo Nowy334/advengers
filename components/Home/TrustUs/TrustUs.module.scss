@@ -25,5 +25,11 @@
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 3rem 10rem;
     padding: 4rem 4rem 8rem 4rem;
+    @include veriables.respond(tab){
+      grid-template-columns: repeat(2, 1fr);
+     }
+     @include veriables.respond(phone){
+      grid-template-columns: repeat(1, 1fr);
+    }
   }
 }
