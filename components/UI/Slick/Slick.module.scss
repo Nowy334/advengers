@@ -9,7 +9,8 @@
 
 .container__out{
   width: 70%;
-  height: 20rem;
+  //height: 20rem;
+  max-height: 60rem;
 
   @include veriables.respond(netbook){
     width:75%;

@@ -10,7 +10,7 @@ const PowerItem: React.FC<{img: string, title: string, text:string; dark?: boole
 
   return (
     <div className={classname}>
-      <img className={classes.item__img} src={props.img}/>
+      <img className={classes.item__img} src={props.img} alt='power'/>
       <h2 className={classes.item__title}>{props.title}</h2>
       <p className={classes.item__text}>{props.text}</p>
     </div>

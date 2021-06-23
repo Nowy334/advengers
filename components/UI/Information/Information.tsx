@@ -7,7 +7,7 @@ const Information = () => {
   return (
     <section className={classes.section}>
       <div className={classes.section__element}>
-        <img src='/assets/logo-2.png' className={classes.section__img}/>
+        <img src='/assets/logo-2.png' className={classes.section__img} alt='logo'/>
         <ul className={classes.section__list}>
           <li className={classes['section__list--item']}>
             <ImLocation2 size={15} className={classes['section__list--item-icon']}/>

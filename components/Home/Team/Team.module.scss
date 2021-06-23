@@ -1,10 +1,14 @@
 @use '../../../styles/veriables.scss';
 
 .section {
-  margin-bottom: 4rem;
-  height:100vh;
-  @include veriables.respond(phone){
+  margin-bottom: 6rem;
+  height:100%;
+  @include veriables.respond(tab){
     height:110vh;
+  }
+
+  @include veriables.respond(phone){
+    height:105vh;
   }
 }
 

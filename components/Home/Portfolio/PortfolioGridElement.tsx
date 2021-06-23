@@ -14,7 +14,10 @@ const PortfolioGridElement:React.FC <{img: string; title:string; text:string}> =
 
   return(
     <li className={classes.element} onMouseEnter={toggleHover} onMouseLeave={toggleHover}>
-      <img src={props.img} className={classes.element__img}/>
+      <picture className={classes.element__picture}>
+        <source srcSet={`${props.img}.webp`} type="image/webp" className={classes.element__img} />
+        <img src={`${props.img}.jpg`} className={classes.element__img} alt='person'/>
+      </picture>
       <div className={className}>
         <h4 className={classes['element__hover--title']}><a href='#'>{props.title}</a></h4>
         <p className={classes['element__hover--text']}>{props.text}</p>

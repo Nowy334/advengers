@@ -44,7 +44,7 @@
     margin-left: -1.5rem;
     @include veriables.respond(phone){
       flex-direction: column;
-  }
+    }
 
     &-element{
       display: flex;

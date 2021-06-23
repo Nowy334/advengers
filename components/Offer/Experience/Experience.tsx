@@ -5,18 +5,18 @@ const Experience = () => {
     <section className={classes.section}>
       <div className={classes.div__main}>
         <div className={`${classes['section__element']} ${classes['section__element-1']}`}>
-          <img className={classes['section__element--img']} src='/assets/apple-team.jpg'/>
+          <img className={classes['section__element--img']} src='/assets/apple-team.jpg' alt='experience'/>
           <div className={classes['section__element--container']}>
-            <img className={classes['section__element--img-small']} src='/assets/placeholder.png'/>
+            <img className={classes['section__element--img-small']} src='/assets/placeholder.png' alt='experience'/>
             <p className={classes['section__element--container-title']}>3D Mockups</p>
           </div>
           <p className={classes['section__element--container-text']}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec</p>
         </div>
 
         <div className={`${classes['section__element']} ${classes['section__element-2']}`} >
-          <img className={classes['section__element--img']} src='/assets/about-2.jpg'/>
+          <img className={classes['section__element--img']} src='/assets/about-2.jpg' alt='experience'/>
           <div className={classes['section__element--container']}>
-            <img className={classes['section__element--img-small']} src='/assets/placeholder.png'/>
+            <img className={classes['section__element--img-small']} src='/assets/placeholder.png' alt='experience'/>
             <p className={classes['section__element--container-title']}>Responsive Web</p>
           </div>
           <p className={classes['section__element--container-text']}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec</p>

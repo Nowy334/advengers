@@ -20,22 +20,22 @@ const DATA_ABOUT: Data[] = [
 ];
 
 const PORTFOLIO_PROJECTS: {img: string, title: string, text:string}[] = [
-  {img: '/assets/project-1.jpg', title: 'House Design', text: 'photography' },
-  {img: '/assets/project-2.jpg', title: 'House Design', text: 'photography' },
-  {img: '/assets/project-3.jpg', title: 'House Design', text: 'photography' },
-  {img: '/assets/project-4.jpg', title: 'House Design', text: 'photography' },
-  {img: '/assets/project-5.jpg', title: 'House Design', text: 'photography' },
-  {img: '/assets/project-6.jpg', title: 'House Design', text: 'photography' },
-  {img: '/assets/project-7.jpg', title: 'House Design', text: 'photography' },
-  {img: '/assets/project-8.jpg', title: 'House Design', text: 'photography' },
+  {img: '/assets/project-1', title: 'House Design', text: 'photography' },
+  {img: '/assets/project-2', title: 'House Design', text: 'photography' },
+  {img: '/assets/project-3', title: 'House Design', text: 'photography' },
+  {img: '/assets/project-4', title: 'House Design', text: 'photography' },
+  {img: '/assets/project-5', title: 'House Design', text: 'photography' },
+  {img: '/assets/project-6', title: 'House Design', text: 'photography' },
+  {img: '/assets/project-7', title: 'House Design', text: 'photography' },
+  {img: '/assets/project-8', title: 'House Design', text: 'photography' },
 ]; 
 
-const ABOUT_ITEMS: {img: string; name: string; title:string; text:string}[] = [
-  {img:'/assets/face-3-min.png', name: 'Andrzej Kowalski', title: 'Testing Enginner', text:'Enter member description here which describes the position of member in company'},
-  {img:'/assets/face-4-min.png', name: 'Andrzej Kowalski', title: 'Testing Enginner', text:'Enter member description here which describes the position of member in company'},
-  {img:'/assets/face-5-min.jpg', name: 'Andrzej Kowalski', title: 'Testing Enginner', text:'Enter member description here which describes the position of member in company'},
-  {img:'/assets/face-6-min.jpg', name: 'Andrzej Kowalski', title: 'Testing Enginner', text:'Enter member description here which describes the position of member in company'},
-  {img:'/assets/face-7-min.jpg', name: 'Andrzej Kowalski', title: 'Testing Enginner', text:'Enter member description here which describes the position of member in company'},
+const ABOUT_ITEMS: {img: string; name: string; title:string; text:string, type?: string}[] = [
+  {img:'/assets/face-3-min', name: 'Andrzej Kowalski', title: 'Testing Enginner', text:'Enter member description here which describes the position of member in company'},
+  {img:'/assets/face-4-min', name: 'Andrzej Kowalski', title: 'Testing Enginner', text:'Enter member description here which describes the position of member in company'},
+  {img:'/assets/face-5-min', name: 'Andrzej Kowalski', title: 'Testing Enginner', text:'Enter member description here which describes the position of member in company'},
+  {img:'/assets/face-6-min', name: 'Andrzej Kowalski', title: 'Testing Enginner', text:'Enter member description here which describes the position of member in company'},
+
 ]
 
 const OFFER_ITEMS: {img: string; title:string; text:string; dark?:boolean}[] = [

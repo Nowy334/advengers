@@ -6,7 +6,7 @@ const PortfolioItem:React.FC<{img: string}> = ({img}) => {
     <li className={classes.element}>
       <a href='#'>
         <span></span>
-       <img src = {img} className={classes.element__img}/>
+       <img src = {`${img}.jpg`} className={classes.element__img} alt='project'/>
       </a>
     </li>
   );
